@@ -20,7 +20,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '7422106744:AAFKznEoUUKWfLhvxNCkfyaznb0yRYm
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1729311491').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/darknoor04") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 'https://t.me/telegu_movies_04'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002374033468'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/JisshuMovieZone')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002325566167').split()]
 #---------------------------------------------------------------
@@ -69,7 +69,7 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://i.ibb.co/qpxpGmC/image.jpg https://i.ibb.co/DQ35zLZ/image.jpg')).split()
+START_IMG = (environ.get('START_IMG', 'https://envs.sh/aW8.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/aWT.jpg')).split()
