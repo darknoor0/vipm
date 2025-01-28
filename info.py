@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '24243546'))
 API_HASH = environ.get('API_HASH', 'a4566f383b0ee40c238398f089bf5ebd')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7807282657:AAEwoFisMweiabh34uyQr7qHbyzmv9F1ZKk')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7422106744:AAEaxz24bJ8lODmJ-PpcBTQrJTgG8lWbirs')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1729311491').split()]
@@ -25,7 +25,7 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/telegu_movies_0
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002325566167').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://NOOR04:NOOR04@cluster0.ef9a3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://vipm1:vipm1@cluster0.5yddr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'My_Tg_files')
 #---------------------------------------------------------------
